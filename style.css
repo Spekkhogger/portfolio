@@ -10,49 +10,81 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Karla', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
     background-color: var(--background-color);
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
+    justify-content: end;
+    margin: 10px 10px;
+    gap: 1.5em;
 }
 
 li a {
-    text-decoration: none;
     color: var(--dark-brown);
-    font-size: 2rem;
+    font-size: 1.3em;
 }
 
-#logo-nav {
+main {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+    align-items: center;
+}
+
+#logo {
     font-family: 'Comfortaa', cursive;
     font-size: 4rem;
+    border: 3px solid red;
+    color: var(--dark-brown);
+    margin: -30px 0px 0px;
 }
 
-#project-nav, #about-nav{
-    border-bottom: 2px solid var(--dark-brown);
-}
+/*Project cards*/
 
-#project-nav {
-    padding-right: 8em;
-}
-
-#about-nav {
-    padding-left: 8em;
-}
-
-
-#triangle {
+.card-wrap {
     display: flex;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: rotate(45deg);
-    z-index: -100;
-    min-width: 400px;
-    min-height: 400px;
+    gap: 2em;
+}
+
+.card {
+    border: 3px solid var(--dark-blue);
+    border-radius: 5px;
+    min-height: 50vh;
+    min-width: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 10px 35px;
+    color: var(--dark-brown);
+    border-radius: 5px;
+}
+
+.button-wrap {
+    margin-bottom: -21px;
+    display: flex;
+    gap: 1.5em;
+}
+
+.demo-button {
     background-color: var(--beige);
+    border: 2px solid var(--beige);
+}
+
+.code-button {
+    background-color: var(--dark-blue);
+    border: 2px solid var(--dark-blue);
+    color: var(--background-color);
 }
