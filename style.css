@@ -91,6 +91,11 @@ main {
     align-items: center;
     justify-content: space-between;
     margin: 10px; 
+    gap: 10px;
+}
+
+.card p {
+    text-align: center;
 }
 
 .card img {
@@ -172,6 +177,10 @@ main {
     margin: 1em 0.1em 1em;
 }
 
+#about-list li{
+    margin: 10px;
+}
+
 .download {
     background-color: var(--beige);
     border: 2px solid var(--beige);
@@ -202,7 +211,34 @@ main {
     margin-top: 10px;
 }
 
+.fa-brands:hover {
+    color: var(--beige);
+}
+
 .fa-solid{
     color: var(--dark-blue);
     margin: 10px;
+}
+
+.fa-solid:hover {
+    color: var(--beige);
+}
+
+
+@media screen and (max-width: 900px){
+    main {
+        margin-top: 50px;
+        overflow: hidden;
+    }
+
+    .card {
+        min-width: 200px;
+        max-width: 90%;
+    }
+
+    .about-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 }
