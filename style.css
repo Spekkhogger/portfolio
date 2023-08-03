@@ -225,6 +225,96 @@ main {
 }
 
 
+/* The color page */
+/* The color boxes */
+
+.colorBox {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-width: 200px;
+    min-height: 200px;
+}
+.OneColor, .TwoColor, .ThreeColor, .FourColor{
+    min-width: 300px;
+    max-height: 50px;
+    display: flex;
+
+}
+.OneColor {
+    min-height: 50px;
+    border-radius: 10px 10px 0 0 ;
+}
+.TwoColor{
+    min-height: 50px;
+}
+.ThreeColor{
+    min-height: 80px;
+}
+.FourColor{
+    min-height: 110px;
+    border-radius: 0 0 10px 10px;
+}
+
+.hexText{
+    align-self: center;
+    font-family: 'Karla', sans-serif;
+    opacity: 0%;
+}
+.hexText:hover{
+    color: white;
+    opacity: 100%;
+    background-color: rgb(0, 0, 0, 40%);
+    padding: 0 10px 0;
+    cursor: pointer;
+}
+
+/* Adding color to the palette IDs */
+/* This is the only one in CSS */
+/* The other palettes will be written directly into html */
+#pageDarkBlue {
+    background-color: #24314A;
+}
+#pageLigthBlue{
+    background-color: #B8DDFC;
+}
+#pageLigthBeige{
+    background-color: #D1B685;
+}
+#pageBrown{
+    background-color: #3B2E1F;
+}
+
+
+/* Display on top container */
+
+.topContainer{
+    display: flex;
+    gap: 4em;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.colorText h2{
+    font-size: 40pt;
+}
+
+/* Display on bottom container */
+
+.bottomContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5em;
+    justify-content: center;
+    padding-top: 5em;
+    margin-top: 5em;
+    margin: 5em 2em;
+    border-top: 1px solid var(--dark-blue);
+}
+
+
 @media screen and (max-width: 900px){
     main {
         margin-top: 50px;
