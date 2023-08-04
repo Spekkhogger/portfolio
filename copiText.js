@@ -1,25 +1,4 @@
 
-// function copyHexCode(hex) {
-//     const textarea = document.createElement('textarea');
-//     textarea.value = hex;
-//     document.body.appendChild(textarea);
-//     textarea.select();
-//     document.execCommand('copy');
-//     document.body.removeChild(textarea);
-//   }
-
-// function handleColorBoxClick(event) {
-//     const colorBox = event.target;
-//     const hexCode = colorBox.dataset.hex;
-//     copyHexCode(hexCode);
-//     alert(`Copied HEX code: ${hexCode}`);
-//   }
-
-//   const colorBoxes = document.querySelectorAll('.color-box');
-//   colorBoxes.forEach((colorBox) => {
-//     colorBox.addEventListener('click', handleColorBoxClick);
-//   });
-
 const copyContent = async () => {
     try {
       await navigator.clipboard.writeText(colorText);
@@ -33,8 +12,14 @@ const textBox = document.querySelectorAll(".hexText");
 for (let i = 0; i < textBox.length; i++){
     const colorText = textBox[i].innerHTML;
     textBox[i].addEventListener("click", function(){
-        console.log(colorText);
         navigator.clipboard.writeText(colorText);
+        // textBox[i].style.opacity = "40%"
+        // textBox[i].style.backgroundColor = "(255, 255, 255, 40%)"
+
+        // setTimeout(function() {
+        //     textBox[i].style.opacity = "0";
+        //     textBox[i].style.backgroundColor = "transparent";
+        //   }, 500);
     });
 };
  
