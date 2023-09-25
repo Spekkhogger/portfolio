@@ -3,12 +3,14 @@
 This website is my personal portfolio and resume. 
 
 ## Description
-A school project to create a personal portfolio. This page consist of only one page. Links will take you further down the page to each section. These section are: 
-- Projects 
+A school project to create a personal portfolio. This website consists of two pages. The first page contains links that will take you further down the page to three sections. These section are: 
+- Projects
 - About me
-- Contact 
+- Contact
 
-The page and URL are hosted on Netlify.com
+I have now also added a page for colorthemes. I love colors, and I wanted to include this personal page with some of my favorite color combinations.
+
+The website and URL are hosted on Netlify.com
 [Link to page](https://famous-capybara-9b460e.netlify.app/)
 
 ### Built with: 
