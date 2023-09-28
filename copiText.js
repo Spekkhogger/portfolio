@@ -13,6 +13,7 @@ for (let i = 0; i < textBox.length; i++){
     const colorText = textBox[i].innerHTML;
     textBox[i].addEventListener("click", function(){
         navigator.clipboard.writeText(colorText);
+        textBox[i].innerHTML += `     <i class="fa-regular fa-clipboard"></i>`
         // textBox[i].style.opacity = "40%"
         // textBox[i].style.backgroundColor = "(255, 255, 255, 40%)"
 
