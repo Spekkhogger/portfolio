@@ -1,0 +1,81 @@
+#barbieButton {
+    background-color: #d44f7f; 
+    color: #F8EFF0;
+}
+#barbieButton:hover{
+    background-color: #E99AC2;
+}
+
+
+#cactusButton {
+    background-color: #5A854E; 
+    color: #EFECE1;
+}
+#cactusButton:hover{
+    background-color: #A0BD62;
+}
+
+
+#pomButton {
+    background-color: #C47839; 
+    color: #F0DDC5;
+}
+#pomButton:hover{
+    background-color: #7B6764;
+}
+
+
+#brownButton {
+    background-color: #562830; 
+    color: white;
+}
+#brownButton:hover{
+    background-color: #885A5E;
+}
+
+
+#warhammerButton {
+    background-color: #F6C47E; 
+    color: #7C4143;
+}
+#warhammerButton:hover{
+    background-color: #C46342;
+    color: white;
+}
+
+
+#sunflowerButton {
+    background-color: #596D1E; 
+    color: #F7F350;
+}
+#sunflowerButton:hover{
+    background-color: #D89333;
+}
+
+
+#hallowButton {
+    background-color: #311B2A; 
+    color: white;
+}
+#hallowButton:hover{
+    background-color: #9E5B6D;
+}
+
+
+#kvistButton {
+    background-color: #556443; 
+    color: #D7DDBF;
+}
+#kvistButton:hover{
+    background-color: #6A5743;
+}
+
+
+#berryButton {
+    background-color: #D45B49; 
+    color: #FFC66C;
+}
+#berryButton:hover{
+    background-color: #FFC66C;
+    color: #D45B49;
+}
