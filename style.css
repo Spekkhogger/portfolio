@@ -26,7 +26,6 @@ nav {
     top: 0;
     right: 0;
     min-width: 100%;
-
     background-color: var(--background-color);
     z-index: 1;
 }
@@ -61,6 +60,14 @@ main {
     color: var(--dark-brown);
     margin: 0px 0px 0px;
     z-index: 999;
+}
+
+.darkText {
+    color: var(--dark-blue);
+}
+
+.ligthText {
+    color: var(--background-color);
 }
 
 /*Welcome container*/

@@ -15,9 +15,11 @@ const cloudberry = document.querySelector("#berryButton");
 const demoButton = document.querySelector("#demo-button");
 const codeButton = document.querySelector("#code-button");
 const body = document.querySelector("body"); 
+const nav = document.querySelector("nav");
 
 export function changeTheme(){
     body.style.backgroundColor = loadKey("background"); 
+    nav.style.backgroundColor = loadKey("background"); 
     console.log("works"); 
 }
 
