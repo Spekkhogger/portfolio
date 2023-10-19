@@ -212,7 +212,7 @@ main {
 }
 
 .fa-brands:hover {
-    color: var(--beige);
+    opacity: 70%;
 }
 
 .fa-solid{
@@ -221,7 +221,7 @@ main {
 }
 
 .fa-solid:hover {
-    color: var(--beige);
+    opacity: 70%;
 }
 
 

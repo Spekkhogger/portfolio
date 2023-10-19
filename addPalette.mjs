@@ -13,28 +13,31 @@ const cloudberry = document.querySelector("#berryButton");
 friendlyCactus.addEventListener("click", function(){
     setKey("background", "#EFECE1");
     setKey("dText", "#5A854E");
-    setKey("lText", "#5A854E");
+    setKey("lText", "#fff");
     setKey("boldColor", "#E3B9CF");
     setKey("secondaryButton", "#A0BD62");
     location.reload();
 })
 angryPomeranian.addEventListener("click", function(){
     setKey("background", "#F0DDC5");
-    setKey("text", "#7B6764");
+    setKey("dText", "#C47839");
+    setKey("lText", "#F0DDC5");
     setKey("boldColor", "#C47839");
     setKey("secondaryButton", "#E6BB86");
     location.reload();
 })
 brownPurple.addEventListener("click", function(){
     setKey("background", "#D8C6AD");
-    setKey("text", "#fff");
+    setKey("dText", "#562830");
+    setKey("lText", "#fff");
     setKey("boldColor", "#562830");
     setKey("secondaryButton", "#A68A67");
     location.reload();
 })
 warhammer.addEventListener("click", function(){
     setKey("background", "#F6C47E");
-    setKey("text", "#7C4143");
+    setKey("dText", "#7C4143");
+    setKey("lText", "#fff");
     setKey("boldColor", "#4A66A1");
     setKey("secondaryButton", "#C46342");
     location.reload();
@@ -49,28 +52,32 @@ barbie.addEventListener("click", function(){
 })
 sunFlower.addEventListener("click", function(){
     setKey("background", "#fff");
-    setKey("text", "#000");
+    setKey("dText", "#596D1E");
+    setKey("lText", "#fff");
     setKey("boldColor", "#596D1E")
-    setKey("secondaryButton", "#D89333")
+    setKey("secondaryButton", "#F6C845")
     location.reload();
 })
 darkHallow.addEventListener("click", function(){
     setKey("background", "#C89895");
-    setKey("text", "#fff");
-    setKey("boldColor", "#311B2A")
-    setKey("secondaryButton", "#9E5B6D")
+    setKey("dText", "#311B2A");
+    setKey("lText", "#C89895");
+    setKey("boldColor", "#9E5B6D")
+    setKey("secondaryButton", "#53344A")
     location.reload();
 })
 kvist.addEventListener("click", function(){
     setKey("background", "#D7DDBF");
-    setKey("text", "#6A5743");
+    setKey("dText", "#6A5743");
+    setKey("lText", "#D7DDBF");
     setKey("boldColor", "#556443")
     setKey("secondaryButton", "#B29D76")
     location.reload();
 })
 cloudberry.addEventListener("click", function(){
     setKey("background", "#F0DDC5");
-    setKey("text", "#fff");
+    setKey("dText", "#D45B49");
+    setKey("lText", "#D7DDBF");
     setKey("boldColor", "#D45B49")
     setKey("secondaryButton", "#F5A645")
     location.reload();
