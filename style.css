@@ -276,6 +276,7 @@ main {
 }
 
 .theme-button {
+    cursor: pointer;
     width: 10rem;
     align-self: center;
     margin-top: 1rem;
