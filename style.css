@@ -23,6 +23,7 @@ body {
 
 nav {
     position: fixed;
+    background-color: var(--background-color);
     top: 0;
     right: 0;
     min-width: 100%;
@@ -193,6 +194,10 @@ main {
 
 #about-list li{
     margin: 10px;
+}
+
+.download {
+    margin-top: 1em;
 }
 
 /*Contact section*/

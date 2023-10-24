@@ -1,4 +1,4 @@
-import { setKey } from "./storage.mjs";
+import { removeKey, setKey } from "./storage.mjs";
 
 const friendlyCactus = document.querySelector("#cactusButton");
 const angryPomeranian = document.querySelector("#pomButton");
@@ -9,6 +9,16 @@ const sunFlower = document.querySelector("#sunflowerButton");
 const darkHallow = document.querySelector("#hallowButton");
 const kvist = document.querySelector("#kvistButton");
 const cloudberry = document.querySelector("#berryButton");
+const defaultT = document.querySelector("#defaultTheme");
+
+defaultT.addEventListener("click", function() {
+    removeKey("background");
+    removeKey("dText");
+    removeKey("lText");
+    removeKey("boldColor");
+    removeKey("secondaryButton");
+    location.reload();
+})
 
 friendlyCactus.addEventListener("click", function(){
     setKey("background", "#EFECE1");

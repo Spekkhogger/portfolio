@@ -60,12 +60,25 @@ export function changeTheme(){
 }
 
 // Set default
-const defBackground = "F5F5F5";
-const defText = "3B2D1F";
+// const defBackground = "F5F5F5";
+// const defText = "3B2D1F";
 
-if (loadKey("background") === null){
-    body.style.backgroundColor = defBackground;
-}
+// if (loadKey("background") === null){
+//     body.style.backgroundColor = defBackground;
+// }
+// if (loadKey("dText") === null){
+//     darkText.style.color = "#24314A"; 
+// }
+// // if (loadKey("lText") === null){
+// //     lightText.style.color = "#24314A"; 
+// // }
+// if (loadKey("boldColor") === null){
+//     bold.style.backgroundColor = "#24314A"; 
+// }
+// if (loadKey("dText") === null){
+//     darkText.style.color = "#24314A"; 
+// }
+
 
 // Call function
 changeTheme();
