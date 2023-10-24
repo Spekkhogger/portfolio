@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../themeButtons.css">
     <script src="https://kit.fontawesome.com/eadebda42a.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,10 +26,10 @@
     </header>
     <main>
         <div class="logo-container">
-            <a href="../index.html"><h1 id="logo">Sanna</h1></a>
+            <a href="../index.html"><h1 id="logo" class="darkText">Sanna</h1></a>
         </div>
         <div class="topContainer">
-            <div class="colorText">
+            <div class="colorText darkText">
                 <h2>Colour palettes</h2>
                 <p>Some of my favorite color combinations.</p>
                 <p>Feel free to use.</p>
@@ -38,16 +39,17 @@
                 <div class="TwoColor" id="pageLigthBlue"><p class="hexText">#B8DDFC</p></div>
                 <div class="ThreeColor" id="pageLigthBeige"><p class="hexText">#D1B685</p></div>
                 <div class="FourColor" id="pageBrown"><p class="hexText">#3B2E1F</p></div>
+                <button class="theme-button darkButton" id="defaultTheme">Set default</button>
             </div>
         </div>
         <div class="bottomContainer">
-            <div class="colorBox">
+            <div class="colorBox" id="friendlyCactus">
                 <h3>Friendly Cactus</h3>
                 <div class="OneColor" style="background-color: #E3B9CF;">
                     <p class="hexText">#E3B9CF</i></p>
                 </div>
-                <div class="TwoColor" style="background-color: #EFECE1;">
-                    <p class="hexText">#EFECE1</p>
+                <div class="TwoColor" style="background-color: #EEECE1;">
+                    <p class="hexText">#EEECE1</p>
                 </div>
                 <div class="ThreeColor" style="background-color: #A0BD62;">
                     <p class="hexText">#A0BD62</p>
@@ -55,8 +57,10 @@
                 <div class="FourColor" style="background-color: #5A854E;">
                     <p class="hexText">#5A854E</p>
                 </div>
+                <button class="theme-button" id="cactusButton">Change theme</button>
             </div>
-            <div class="colorBox">
+
+            <div class="colorBox" id="angryPomeranian">
                 <h3>Angry Pomeranian</h3>
                 <div class="OneColor" style="background-color: #7B6764;">
                     <p class="hexText">#7B6764</p>
@@ -70,8 +74,9 @@
                 <div class="FourColor" style="background-color: #C47839;">
                     <p class="hexText">#C47839</p>
                 </div>
+                <button class="theme-button" id="pomButton">Change theme</button>
             </div>
-            <div class="colorBox">
+            <div class="colorBox" id="brownPurple">
                 <h3>Brown Purple</h3>
                 <div class="OneColor" style="background-color: #D8C6AD;">
                     <p class="hexText">#D8C6AD</p>
@@ -85,8 +90,9 @@
                 <div class="FourColor" style="background-color: #562830;">
                     <p class="hexText">#562830</p>
                 </div>
+                <button class="theme-button" id="brownButton">Change theme</button>
             </div>
-            <div class="colorBox">
+            <div class="colorBox" id="warhammer">
                 <h3>Warhammer</h3>
                 <div class="OneColor" style="background-color: #7C4143;">
                     <p class="hexText">#7C4143</p>
@@ -100,8 +106,9 @@
                 <div class="FourColor" style="background-color: #4A66A1;">
                     <p class="hexText">#4A66A1</p>
                 </div>
+                <button class="theme-button" id="warhammerButton">Change theme</button>
             </div>
-            <div class="colorBox">
+            <div class="colorBox" id="barbie">
                 <h3>Barbie</h3>
                 <div class="OneColor" style="background-color: #D44F7F;">
                     <p class="hexText">#D44F7F</p>
@@ -115,8 +122,9 @@
                 <div class="FourColor" style="background-color: #F8EFF0;">
                     <p class="hexText">#F8EFF0</p>
                 </div>
+                <button class="theme-button" id="barbieButton">Change theme</button>
             </div>
-            <div class="colorBox">
+            <div class="colorBox" id="sunFlower">
                 <h3>Sunflower</h3>
                 <div class="OneColor" style="background-color: #F7F350;">
                     <p class="hexText">#F7F350</p>
@@ -130,8 +138,9 @@
                 <div class="FourColor" style="background-color: #596D1E;">
                     <p class="hexText">#596D1E</p>
                 </div>
+                <button class="theme-button" id="sunflowerButton">Change theme</button>
             </div>
-            <div class="colorBox">
+            <div class="colorBox" id="darkHallow">
                 <h3>Dark Hallow</h3>
                 <div class="OneColor" style="background-color: #311B2A;">
                     <p class="hexText">#311B2A</p>
@@ -145,8 +154,9 @@
                 <div class="FourColor" style="background-color: #C89895;">
                     <p class="hexText">#C89895</p>
                 </div>
+                <button class="theme-button" id="hallowButton">Change theme</button>
             </div>
-            <div class="colorBox">
+            <div class="colorBox" id="kvist">
                 <h3>Kvist</h3>
                 <div class="OneColor" style="background-color: #6A5743;">
                     <p class="hexText">#6A5743</p>
@@ -160,8 +170,9 @@
                 <div class="FourColor" style="background-color: #D7DDBF;">
                     <p class="hexText">#D7DDBF</p>
                 </div>
+                <button class="theme-button" id="kvistButton">Change theme</button>
             </div>
-            <div class="colorBox">
+            <div class="colorBox" id="cloudberry">
                 <h3>Cloudberry</h3>
                 <div class="OneColor" style="background-color: #D45B49;">
                     <p class="hexText">#D45B49</p>
@@ -175,12 +186,14 @@
                 <div class="FourColor" style="background-color: #FFC66C;">
                     <p class="hexText">#FFC66C</p>
                 </div>
+                <button class="theme-button" id="berryButton">Change theme</button>
             </div>
-            
 
         </div>
+        
     </main>
 </body>
 <script src="../copiText.js"></script>
-<script src="../mouseOverEvent.js"></script>
+<script type="module" src="../addPalette.mjs"></script>
+<script src="../changeTheme.mjs" type="module"></script>
 </html>

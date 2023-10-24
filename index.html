@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="themeButtons.css">
     <script
       src="https://kit.fontawesome.com/eadebda42a.js"
       crossorigin="anonymous"
@@ -25,24 +26,24 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="palettes/">Colours</a></li>
+          <li><a href="#projects" class="darkText">Projects</a></li>
+          <li><a href="#about" class="darkText">About</a></li>
+          <li><a href="#contact" class="darkText">Contact</a></li>
+          <li><a href="palettes/" class="darkText">Colours</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <div class="logo-container">
-        <a href="index.html"><h1 id="logo">Sanna</h1></a>
+        <a href="index.html" class="darkText"><h1 id="logo">Sanna</h1></a>
       </div>
 
       <div class="welcome-container"></div>
       <span id="projects"></span>
       <div class="project-container">
-        <h2>Projects</h2>
+        <h2 class="darkText">Projects</h2>
         <div class="card-wrap">
-          <div class="card">
+          <div class="card darkText">
             <img src="images/GameHub Large.jpeg" alt="gamehub website image" />
             <h3>GameHub - eCom</h3>
             <p>Project start: 11.05.2022</p>
@@ -60,18 +61,18 @@
               <a
                 href="https://ephemeral-sundae-92c10d.netlify.app/"
                 target="_blank"
-                class="demo-button button"
+                class="lightButton button"
                 >Demo</a
               >
               <a
                 href="https://github.com/Noroff-FEU-Assignments/cross-course-project-Spekkhogger"
                 target="_blank"
-                class="code-button button"
+                class="button darkButton"
                 >Code</a
               >
             </div>
           </div>
-          <div class="card">
+          <div class="card darkText">
             <img
               src="images/Community-science Large.jpeg"
               alt="community science museum"
@@ -92,19 +93,19 @@
               <a
                 href="https://wonderful-sorbet-adb43f.netlify.app/"
                 target="_blank"
-                class="demo-button button"
+                class="lightButton button"
                 >Demo</a
               >
               <a
                 href="https://github.com/Spekkhogger/ingeborg_semester-project"
                 target="_blank"
-                class="code-button button"
+                class="darkButton button"
                 >Code</a
               >
             </div>
           </div>
-          <div class="card">
-            <img src="images/Knife and Pen Large.jpeg" alt="blog website" />
+          <div class="card darkText">
+              <img src="images/Knife and Pen Large.jpeg" alt="blog website" />
             <h3>Knife&Pen - Food blog</h3>
             <p>Project start: 23.01.2023</p>
             <p>
@@ -120,13 +121,13 @@
               <a
                 href="https://resilient-creponne-254619.netlify.app/"
                 target="_blank"
-                class="demo-button button"
+                class="button lightButton"
                 >Demo</a
               >
               <a
                 href="https://github.com/Noroff-FEU-Assignments/project-exam-1-Spekkhogger"
                 target="_blank"
-                class="code-button button"
+                class="darkButton button"
                 >Code</a
               >
             </div>
@@ -135,14 +136,13 @@
       </div>
       <span id="about"></span>
 
-      <div class="about-me-container">
+      <div class="about-me-container ligthText boldColor">
         <h2>About me</h2>
         <div class="about-wrap">
           <div class="about-left">
             <h2>Ingeborg Sanna</h2>
-            <h3>Front-end developer</h3>
+            <h3>Aspiring Front-end developer</h3>
             <p id="age"></p>
-            <p>She/her</p>
             <ul id="about-list">
               <li>Currently studying front-end development at Noroff</li>
               <li>Bachelor in Media Science from UiO</li>
@@ -160,22 +160,22 @@
             <img src="images/IMG_5683 Medium.jpeg" alt="picture of me" />
           </div>
         </div>
-        <a href="https://github.com/Spekkhogger" class="download button"
+        <a href="https://github.com/Spekkhogger" class="download button lightButton"
           >GitHub</a
         >
-        <a href="#" class="download button">Download resume (pdf)</a>
+        <a href="#" class="download button lightButton">Download resume (pdf)</a>
       </div>
 
       <div class="contact-container" id="contact">
-        <h2>Contact me</h2>
+        <h2 class="darkText">Contact me</h2>
         <div class="icons">
           <a
             href="https://www.linkedin.com/in/ingeborg-sanna-a2805516a/"
             target="_blank"
-            ><i class="fa-brands fa-linkedin fa-4x"></i
+            ><i class="fa-brands fa-linkedin fa-4x darkText"></i
           ></a>
           <a href="mailto:ingeborgsanna@gmail.com?subject = Let's chat"
-            ><i class="fa-solid fa-envelope fa-4x"></i
+            ><i class="fa-solid fa-envelope fa-4x darkText"></i
           ></a>
         </div>
       </div>
@@ -183,5 +183,6 @@
     <footer></footer>
 
     <script src="date.js"></script>
+    <script src="changeTheme.mjs" type="module"></script>
   </body>
 </html>
