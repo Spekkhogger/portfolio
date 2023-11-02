@@ -20,7 +20,7 @@ The website and URL are hosted on Netlify.com
 
 ## Getting started
 ### Installing
-1. Close the repo
+1. Clone the repo
 ```
 https://github.com/Spekkhogger/portfolio.git
 ```
